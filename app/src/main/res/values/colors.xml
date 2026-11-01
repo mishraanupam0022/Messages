@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <!-- Pratibha SMS - Final Theme -->
+    <color name="primary">#7B5CFF</color>
+    <color name="primary_dark">#6A4AE0</color>
+    <color name="primary_light">#E9E2FF</color>
+    <color name="accent">#E040FB</color>
+    <color name="accent_pink">#FF6EB5</color>
+    
+    <!-- Background - Tumhara wala soft pink -->
+    <color name="background">#FFF6F8FB</color>
+    <color name="card_bg">#FFFFFFFF</color>
+    <color name="surface_light">#FFF2F7FF</color>
+    
+    <!-- Text -->
+    <color name="text_dark">#FF2D2D4A</color>
+    <color name="text_grey">#FF8A8AA3</color>
+    
+    <!-- OTP Toggle - Violet Pink Gradient -->
+    <color name="otp_toggle_start">#FF7B5CFF</color>
+    <color name="otp_toggle_end">#FFE040FB</color>
 </resources>
