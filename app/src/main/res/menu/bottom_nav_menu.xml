@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_chats" android:title="Chats" android:icon="@drawable/ic_chat"/>
+    <item android:id="@+id/nav_secure" android:title="Secure" android:icon="@drawable/ic_secure"/>
+    <item android:id="@+id/nav_blocked" android:title="Blocked" android:icon="@drawable/ic_blocked"/>
+    <item android:id="@+id/nav_settings" android:title="Settings" android:icon="@drawable/ic_settings"/>
+</menu>
