@@ -1,1 +1,23 @@
+name: Build Pratibha SMS APK
+on:
+  workflow_dispatch:
 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: JDK 17 lagao
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+      - name: Permission do
+        run: chmod +x ./gradlew
+      - name: APK banao
+        run: ./gradlew assembleDebug
+      - name: APK Upload karo
+        uses: actions/upload-artifact@v4
+        with:
+          name: Pratibha-SMS-APK
+          path: app/build/outputs/apk/debug/*.apk
