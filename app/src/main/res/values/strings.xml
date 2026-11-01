@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_launcher_name">Messages</string>
+    <string name="app_launcher_name">Pratibha SMS</string>
+<string name="app_name">Pratibha SMS</string>
+<string name="secure_inbox">Secure Inbox</string>
+<string name="all_messages">All Messages</string>
+<string name="otp_auto_delete">OTP Auto-Delete ON</string>
+<string name="otp_auto_delete_desc">OTP messages automatically deleted after 60 seconds for privacy</string>
     <string name="type_a_message">Type a message…</string>
     <string name="message_not_sent_short">Message not sent</string>
     <string name="message_not_sent_touch_retry">Not sent. Touch to retry.</string>
