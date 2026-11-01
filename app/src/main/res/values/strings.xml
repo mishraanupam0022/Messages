@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_launcher_name">Pratibha SMS</string>
-<string name="app_name">Pratibha SMS</string>
+
 <string name="secure_inbox">Secure Inbox</string>
 <string name="all_messages">All Messages</string>
 <string name="otp_auto_delete">OTP Auto-Delete ON</string>
