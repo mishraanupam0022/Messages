@@ -155,8 +155,8 @@ class MainActivity : SimpleActivity() {
         }
     }
 
-    private fun setupOptionsMenu() {
-        binding.mainMenu.requireToolbar().inflateMenu(R.menu.menu_main)
+   private fun setupOptionsMenu() {
+    binding.mainMenu.requireToolbar().inflateMenu(R.menu.bottom_nav_menu)
         binding.mainMenu.toggleHideOnScroll(true)
         binding.mainMenu.setupMenu()
 
